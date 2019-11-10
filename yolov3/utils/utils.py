@@ -12,7 +12,7 @@ import torch
 import torch.nn as nn
 from tqdm import tqdm
 
-from . import torch_utils  # , google_utils
+from yolov3.utils import torch_utils  # , google_utils
 
 matplotlib.rc('font', **{'size': 11})
 
